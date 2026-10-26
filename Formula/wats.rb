@@ -3,20 +3,20 @@
 class Wats < Formula
   desc "Distributed, secure collective of AI agents thinking and acting together"
   homepage "https://github.com/wearetheswarm/wats"
-  version "0.5.1"
+  version "0.5.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/wearetheswarm/wats/releases/download/v0.5.1/wats-0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c003ca7772ec87df8939e4a8cb94c2bf3c73d65ace233ac0e47768ce7a9ea783"
+      url "https://github.com/wearetheswarm/wats/releases/download/v0.5.2/wats-0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "6eb65444850827e72ae16bfbe2ddd0b118d98665d8cfda2f5d7ebfb56cb5f08f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wearetheswarm/wats/releases/download/v0.5.1/wats-0.5.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "124f13118db01d357cf3dd9917c4931d694c8507a8b7f1e748ec2c113bd9ceb7"
+      url "https://github.com/wearetheswarm/wats/releases/download/v0.5.2/wats-0.5.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "00d42020e6aa1040ec0af4c9e5561df5cd07d7d156204c4f93dd0cd86f85705c"
     end
   end
 
